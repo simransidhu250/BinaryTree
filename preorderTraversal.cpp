@@ -27,7 +27,13 @@ struct Node* insertNode(struct Node* root, int data){
     }
     return root;
 }
+
+void preorderTraversal(struct Node* root){
+    
+}
+
 void main(){
-    struct Node* root =NULL;
+    struct Node* root = NULL;
     insertNode(root,15);
+    preorderTraversal(root);
 }
